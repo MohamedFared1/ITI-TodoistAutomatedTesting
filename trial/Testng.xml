@@ -1,0 +1,13 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+    <test name="Complete Test Suite">
+        <classes>
+            <class name="tests.ProjectTests"/>
+            <class name="tests.SectionTests"/>
+            <class name="tests.TaskTests"/>
+            <class name="tests.CommentTests"/>
+            <class name="tests.LabelTests"/>
+            <class name="tests.DeleteTests"/>
+        </classes>
+    </test>
+</suite>
